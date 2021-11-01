@@ -1,0 +1,88 @@
+/*
+Creator: Nathan Thompson
+Date created: 10/22/2021
+Date last modified: 
+*/
+
+
+body {
+	color: #582F0E;
+	background-color: #F4ECD6;
+	font-family: sans-serif;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+header, footer {
+	color: #F4ECD6;
+	background-color: #582F0E;
+	font-family: 'Heebo', sans-serif;
+	height: 130px;
+	text-align: center;
+	padding: 20px 10px 20px 10px;
+
+}
+
+.jumbotron {
+	color: #F4ECD6;
+	background-color: #582F0E;
+	font-family: 'Heebo', sans-serif;
+	height: 160px;
+	text-align: center;
+	padding: 20px 10px 10px 10px;
+}
+
+
+h1 {
+	font-size: 3em;
+}
+
+article {
+	margin: 10px 10px 10px 10px;
+}
+
+.clear-float {
+	clear:both;
+}
+
+nav a {
+	background-color: #582F0E;
+	color: #F4ECD6;
+	padding: 8px;
+	border: thin solid #0d1f2d;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	margin: 20px;
+	width: 100px;
+	float: left;
+}
+
+nav a:visited {
+	color: #936639;
+}
+
+nav a:hover {
+	background-color: #F4ECD6;
+	color: #582F0E;
+	font-weight: bold;
+}
+
+nav a:active {
+	font-weight: normal;
+}
+
+#page-container {
+	position: relative;
+	min-height: 100vh;
+}
+
+#content-wrap {
+	padding-bottom: 2.5rem;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
